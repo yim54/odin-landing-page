@@ -43,11 +43,11 @@ header h1 {
     align-items: center;
     gap: 32px;
     height: 300px;
+    justify-content: space-around;
 }
 
 .content {
     width: 400px;
-    margin-left: auto;
     flex-shrink: 0;
 }
 
@@ -71,7 +71,7 @@ header h1 {
 }
 
 .one img {
-    margin-right: auto;
+    border-radius: 8px;
 }
 
 .two {
@@ -177,5 +177,19 @@ header h1 {
     border-color: #F9FAF8;
     color: #F9FAF8;
     padding: 8px 32px;
+    flex-shrink: 0;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 120px;
+}
+
+footer div {
     flex-shrink: 0;
 }
