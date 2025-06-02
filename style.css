@@ -120,3 +120,26 @@ header h1 {
     width: 125px;
     font-size: 16px;
 }
+
+.three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 64px 120px;
+    align-items: center;
+}
+
+.three p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    width: 600px;
+}
+
+.three div {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    width: 600px;
+}
