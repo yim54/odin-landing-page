@@ -28,3 +28,48 @@ header h1 {
     color: #E5E7EB;
     gap: 32px;
 }
+
+.links,
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.one {
+    display: flex;
+    padding: 16px 120px;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    gap: 32px;
+    height: 300px;
+}
+
+.content {
+    width: 400px;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.one p {
+    margin-bottom: 8px
+}
+
+.one button {
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 24px;
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 8px;
+}
+
+.one img {
+    margin-right: auto;
+}
