@@ -73,3 +73,50 @@ header h1 {
 .one img {
     margin-right: auto;
 }
+
+.two {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 120px;
+}
+
+.two h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    gap: 32px
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.image {
+    display: flex;
+    width: 125px;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+    border: 2px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 16px;
+}
+
+.image-text p {
+    width: 125px;
+    font-size: 16px;
+}
